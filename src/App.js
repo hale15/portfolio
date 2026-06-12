@@ -32,29 +32,36 @@ function App() {
           Open to remote roles.
         </p>
         <div className="flex gap-4 flex-wrap justify-center">
-          <a 
-            href="https://github.com/hale15" 
-            target="_blank"
-            rel="noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition"
-          >
-            GitHub
-          </a>
-          <a 
-            href="https://linkedin.com/in/haleluya-amde-b103121a3" 
-            target="_blank"
-            rel="noreferrer"
-            className="border border-gray-600 hover:border-blue-400 text-white px-6 py-3 rounded-lg font-medium transition"
-          >
-            LinkedIn
-          </a>
-          <a 
-            href="mailto:luyaleha@gmail.com"
-            className="border border-gray-600 hover:border-blue-400 text-white px-6 py-3 rounded-lg font-medium transition"
-          >
-            Contact Me
-          </a>
-        </div>
+  <a 
+    href="https://github.com/hale15" 
+    target="_blank"
+    rel="noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition"
+  >
+    GitHub
+  </a>
+  <a 
+    href="https://linkedin.com/in/haleluya-amde-b103121a3" 
+    target="_blank"
+    rel="noreferrer"
+    className="border border-gray-600 hover:border-blue-400 text-white px-6 py-3 rounded-lg font-medium transition"
+  >
+    LinkedIn
+  </a>
+  <a 
+    href="/HaleluyaAmdeCV.pdf"
+    download
+    className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition"
+  >
+    Download CV ↓
+  </a>
+  <a 
+    href="#contact"
+    className="border border-gray-600 hover:border-blue-400 text-white px-6 py-3 rounded-lg font-medium transition"
+  >
+    Contact Me
+  </a>
+</div>
       </section>
 
       {/* About Section */}
