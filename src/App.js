@@ -192,7 +192,7 @@ function App() {
             </div>
 
             <div className="bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-blue-400 transition">
-              <h3 className="text-xl font-semibold mb-2">Task Manager App <span className="text-xs text-blue-400 ml-2">In Progress</span></h3>
+              <h3 className="text-xl font-semibold mb-2">Task Manager App <span className="text-xs text-blue-400 ml-2">Full stack</span></h3>
               <p className="text-gray-400 text-sm mb-4">
                 Full-stack task management with JWT auth, 
                 role-based access, Docker, and CI/CD pipeline.
@@ -202,8 +202,23 @@ function App() {
                   <span key={t} className="bg-gray-700 text-blue-400 px-2 py-1 rounded text-xs">{t}</span>
                 ))}
               </div>
-              <a href="https://github.com/hale15" target="_blank" rel="noreferrer"
-                className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
+              <div className="flex gap-3 mt-4">
+  <a href="https://task-manager-client-nine-sandy.vercel.app/" 
+     target="_blank" rel="noreferrer"
+     className="text-blue-400 text-sm hover:underline">
+    Live Demo →
+  </a>
+  <a href="https://github.com/hale15/task_manager_api" 
+     target="_blank" rel="noreferrer"
+     className="text-blue-400 text-sm hover:underline">
+    Backend →
+  </a>
+  <a href="https://github.com/hale15/task-manager-client" 
+     target="_blank" rel="noreferrer"
+     className="text-blue-400 text-sm hover:underline">
+    Frontend →
+  </a>
+</div>
             </div>
 
             <div className="bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-blue-400 transition">
